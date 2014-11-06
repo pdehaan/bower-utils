@@ -1,0 +1,25 @@
+{
+  "name": "bower-utils",
+  "description": "Utility to scrape Bower registry for recent updates.",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (http://nodeexamples.com/)",
+  "bugs": "https://github.com/pdehaan/bower-utils/issues",
+  "dependencies": {
+    "bowerp": "pdehaan/bowerp",
+    "requestp": "pdehaan/requestp"
+  },
+  "devDependencies": {
+    "eslint": "0.9.2"
+  },
+  "homepage": "https://github.com/pdehaan/bower-utils",
+  "keywords": [
+    "bower"
+  ],
+  "license": "WTFPL",
+  "main": "index.js",
+  "repository": "pdehaan/bower-utils.git",
+  "scripts": {
+    "start": "node index",
+    "test": "eslint ."
+  }
+}
